@@ -1,0 +1,3 @@
+SELECT  a.datatype, a.datavalue , a.createtime from (SELECT b.* from (SELECT * from statistics where moduleno='0712BB1D') b  WHERE datatype='voltage') a
+
+SELECT * FROM statistics WHERE moduleno = '0712BB1D' AND datatype='electricity';
