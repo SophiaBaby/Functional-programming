@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background: #03030F;
+    }
+    ul,li{
+        list-style: none;
+    }
+    li{
+        float: left;
+        color: #368198;
+        cursor: pointer;
+        margin: 0 10px;
+        position: relative;
+    }
+    li::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 0;
+        height: 100%;
+        border-bottom: 2px solid #368198;
+        transition: 0.2s all ease-in;
+    }
+
+    li:hover::before {
+        width: 100%;
+        left: 0;
+    }
+
+    li:hover ~ li::before {/*鼠标滑上之后的li后面的所有的li    --->   并且这些li有着共同的父元素*/
+        left: 0;
+    }
+
+
+</style>
+<body>
+<ul>
+    <li>不可思议的CSS</li>
+    <li>导航栏</li>
+    <li>光标小下划线跟随</li>
+    <li>PURE CSS</li>
+    <li>Nav Underline</li>
+</ul>
+</body>
+</html>
