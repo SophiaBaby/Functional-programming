@@ -105,6 +105,61 @@ else
     echo '文件不存在!'
 fi
 
+echo 'for语句'
+for i in {1..5}
+do
+    echo $i
+done
+
+
+for i in 5 6 7 8 9
+do
+    echo $i
+done
+
+
+for FILE in $HOME/.bash*
+do
+   echo $FILE
+done
+
+
+echo 'while语句'
+COUNTER=0
+while [ $COUNTER -lt 5 ]
+do
+    COUNTER=`expr $COUNTER + 1`
+    echo $COUNTER
+done
+
+echo '请输入。。。'
+echo 'ctrl + d 即可停止该程序'
+while read FILM
+do
+    echo "Yeah! great film the $FILM"
+done
+
+
+test(){
+
+    aNum=3
+    anotherNum=5
+    return $(($aNum+$anotherNum))
+}
+test
+result=$?
+echo $result
+
+
+test(){
+    echo $1  #接收第一个参数
+    echo $2  #接收第二个参数
+    echo $3  #接收第三个参数
+    echo $#  #接收到参数的个数
+    echo $*  #接收到的所有参数
+}
+
+test aa bb cc
 
 
 
