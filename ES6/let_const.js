@@ -47,6 +47,16 @@ if (true) {
 }
 */
 
+//  ** ES6允许在块级作用域中声名变量，但是会像let一样发生变量提升
+
+
+/*
+    const 表示常量，一旦赋值无法改变
+
+
+    ES6声名变量的6种方法  let const var function import class
+ */
+
 
 
 
