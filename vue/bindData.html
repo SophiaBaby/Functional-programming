@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #app{
+        text-align: center;
+    }
+</style>
+<body>
+    <div id="app">
+        <p>半成品，仅供自己思考</p>
+        <input type="text" v-model='num'>
+        <p v-bind = 'num'></p>
+        <button v-click = 'add'>add</button>
+
+
+        <br>
+        <input type="text" v-model='count'>
+        <p v-bind = 'count'></p>
+        <button v-click = 'sub'>sub</button>
+    </div>
+</body>
+
+<script>
+    window.onload = function () {
+        var app = new myVue({
+            el : '#app',
+            data:{
+                num : 1,
+                count : 2
+            },
+            method:{
+                add:function () {
+                    this.num ++
+                    console.log(this.num)
+                },
+                sub:function () {
+                    this.count --
+                    console.log(this.count)
+                }
+            }
+        })
+    }
+
+    function myVue(option) {
+        this._init(option)
+    }
+
+    myVue.prototype._init = function (option) {
+        this.$options = option;
+        this.$el = document.querySelector(option.el);
+        this.$data = option.data;
+        this.$method = option.method;
+        this._bindings = {};
+
+        this._obverse(this.$data);
+        this._compile(this.$el);
+    }
+
+
+    myVue.prototype._obverse = function (obj) {
+        Object.keys(obj).map((key)=>{
+            if(obj.hasOwnProperty(key)){
+                var value = obj[key];
+                this._bindings[key] = {
+                    _directives: []
+                };
+                var binding = this._bindings;
+                Object.defineProperty(this.$data,key,{
+                    enumerable:true,
+                    configurable:true,
+                    get:function () {
+                        console.log('get-value',value);
+                        return value;
+                    },
+                    set:function (newVal) {
+                        console.log('set-value',newVal)
+                        if(newVal !== value){
+                            value = newVal;
+                            binding[key]._directives.forEach(function (item) {
+                                item.update();
+                            })
+                        }
+                    }
+                })
+            }
+        })
+    }
+
+    myVue.prototype._compile = function (root) {
+        var nodes = root.children;
+        for (var i =0 ; i < nodes.length ; i ++){
+            var node = nodes[i];
+            if(node.length){
+                this._compile(node);
+            }
+
+            if (node.hasAttribute('v-click')){
+                node.onclick = (() => {
+                    let attrVal = node.getAttribute('v-click');
+                    return this.$method[attrVal].bind(this.$data);
+                })()
+            }
+
+            if (node.hasAttribute('v-model') && (node.tagName === 'INPUT' || node.tagName === 'TEXTAREA')){
+                node.addEventListener('input',((key)=>{
+                    let attrVal = node.getAttribute('v-model');
+
+                    this._bindings[attrVal]._directives.push(new Watcher(
+                        'input',
+                        node,
+                        this,
+                        attrVal,
+                        'value'
+                    ))
+                    return ()=>{this.$data[attrVal] = nodes[key].value;}
+                })(i))
+            }
+
+            if (node.hasAttribute('v-bind')){
+                let attrVal = node.getAttribute('v-bind');
+                this._bindings[attrVal]._directives.push(new Watcher(
+                    'text',
+                    node,
+                    this,
+                    attrVal,
+                    'innerHTML'
+                ))
+            }
+        }
+    }
+
+    //指令
+    function Watcher(name, el, vm, exp, attr) {
+        this.name = name; //指令名称
+        this.el = el;   //指令对应的dom
+        this.vm = vm;   //指令所属实例
+        this.exp = exp;     //指令对应的值
+        this.attr = attr;   //指令绑定的属性值
+    }
+
+    Watcher.prototype.update = function () {
+        //input.html = 'text'
+        this.el[this.attr] = this.vm.$data[this.exp];
+    }
+</script>
+</html>
