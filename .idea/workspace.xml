@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f4c5c1-d4dd-41bd-9fb5-aa3f2051fd35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/学习的内容/条件语句优化.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/纯函数/demo3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/纯函数/demo4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/继承.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/promise.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,14 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="redux.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/redux.js">
+      <file leaf-file-name="继承.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ES6/继承.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="376">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -64,6 +60,10 @@
         <option value="$PROJECT_DIR$/纯函数/demo4.js" />
         <option value="$PROJECT_DIR$/学习的内容/条件语句优化.js" />
         <option value="$PROJECT_DIR$/vue/redux.js" />
+        <option value="$PROJECT_DIR$/ES6/promise.js" />
+        <option value="$PROJECT_DIR$/ES6/bind.js" />
+        <option value="$PROJECT_DIR$/CSS/position.html" />
+        <option value="$PROJECT_DIR$/ES6/继承.js" />
       </list>
     </option>
   </component>
@@ -84,16 +84,14 @@
     <handled-path value="$PROJECT_DIR$/前端异常上报/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,12 +102,13 @@
             <path>
               <item name="Functional-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Functional-programming" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="ES6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,26 +141,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.条件语句优化.js">
+  <component name="RunManager" selected="Node.js.继承.js">
     <configuration name="条件语句优化.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="条件语句优化.js" working-dir="$PROJECT_DIR$/学习的内容" />
-    <configuration name="demo2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="demo2.js" working-dir="$PROJECT_DIR$/纯函数" />
+    <configuration name="继承.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="继承.js" working-dir="$PROJECT_DIR$/ES6" />
+    <configuration name="bind.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="bind.js" working-dir="$PROJECT_DIR$/ES6" />
     <configuration name="demo3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="demo3.js" working-dir="$PROJECT_DIR$/纯函数" />
     <configuration name="demo4.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="demo4.js" working-dir="$PROJECT_DIR$/纯函数" />
-    <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/state_manage/src" />
     <list>
-      <item itemvalue="Node.js.demo2.js" />
-      <item itemvalue="Node.js.main.js" />
       <item itemvalue="Node.js.demo3.js" />
       <item itemvalue="Node.js.demo4.js" />
       <item itemvalue="Node.js.条件语句优化.js" />
+      <item itemvalue="Node.js.bind.js" />
+      <item itemvalue="Node.js.继承.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.继承.js" />
+        <item itemvalue="Node.js.bind.js" />
         <item itemvalue="Node.js.条件语句优化.js" />
         <item itemvalue="Node.js.demo4.js" />
         <item itemvalue="Node.js.demo3.js" />
-        <item itemvalue="Node.js.main.js" />
-        <item itemvalue="Node.js.demo2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -180,26 +179,30 @@
       <workItem from="1541405364256" duration="2277000" />
       <workItem from="1541470362463" duration="1891000" />
       <workItem from="1541492507181" duration="2966000" />
+      <workItem from="1541747143078" duration="1003000" />
+      <workItem from="1543153927258" duration="192000" />
+      <workItem from="1543155180285" duration="1679000" />
+      <workItem from="1543316748955" duration="2234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17634000" />
+    <option name="totallyTimeSpent" value="22742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.10348469" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13861386" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.21144278" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3292683" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.13313009" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.104477614" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4937811" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.2987805" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -217,17 +220,42 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CSS/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue/redux.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -334,10 +362,35 @@
     <entry file="file://$PROJECT_DIR$/vue/redux.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/继承.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
