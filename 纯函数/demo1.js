@@ -23,4 +23,3 @@ function addX(y) {
 }
 
 addX(2)(1) // 3
-
