@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f4c5c1-d4dd-41bd-9fb5-aa3f2051fd35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/性能/xunhuan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/buffer/change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/buffer/creat buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/child_process/spawn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/cluster/demo1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/getText1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/getText2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/stream/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/纯函数/demo1.js" beforeDir="false" afterPath="$PROJECT_DIR$/纯函数/demo1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +24,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="xunhuan.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/性能/xunhuan.js">
+      <file leaf-file-name="demo1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/cluster/demo1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1050">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="437">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spawn.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/child_process/spawn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creat buffer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node/buffer/creat buffer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/buffer/change.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -36,6 +69,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>buf1</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +112,14 @@
         <option value="$PROJECT_DIR$/设计模式/装饰模式/test.html" />
         <option value="$PROJECT_DIR$/设计模式/装饰模式/decrator.js" />
         <option value="$PROJECT_DIR$/性能/xunhuan.js" />
+        <option value="$PROJECT_DIR$/node/stream/data.txt" />
+        <option value="$PROJECT_DIR$/node/stream/getText1.js" />
+        <option value="$PROJECT_DIR$/node/stream/post.js" />
+        <option value="$PROJECT_DIR$/node/stream/getText2.js" />
+        <option value="$PROJECT_DIR$/node/cluster/demo1.js" />
+        <option value="$PROJECT_DIR$/node/child_process/spawn.js" />
+        <option value="$PROJECT_DIR$/node/buffer/creat buffer.js" />
+        <option value="$PROJECT_DIR$/node/buffer/change.js" />
       </list>
     </option>
   </component>
@@ -94,11 +140,9 @@
     <handled-path value="$PROJECT_DIR$/webpack/1/node_modules" />
     <handled-path value="$PROJECT_DIR$/前端异常上报/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1466" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="1055" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -116,7 +160,13 @@
             <path>
               <item name="Functional-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Functional-programming" type="462c0819:PsiDirectoryNode" />
-              <item name="性能" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Functional-programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Functional-programming" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="buffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,12 +256,15 @@
       <workItem from="1548658979689" duration="4906000" />
       <workItem from="1552301929917" duration="93000" />
       <workItem from="1563850280580" duration="263000" />
-      <workItem from="1563864129605" duration="357000" />
+      <workItem from="1563864129605" duration="1542000" />
+      <workItem from="1563968479156" duration="2768000" />
+      <workItem from="1564021999818" duration="2229000" />
+      <workItem from="1564112292923" duration="1649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39113000" />
+    <option name="totallyTimeSpent" value="46944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,25 +276,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1466" y="23" width="1440" height="1055" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18741159" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18741159" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3296131" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.24226254" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3906083" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.58315563" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.54228854" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5349702" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +322,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node/cluster/demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/child_process/spawn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/cluster/demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/性能/xunhuan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/性能/xunhuan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1748">
@@ -361,8 +443,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/性能/xunhuan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="646">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/stream/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/stream/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/stream/getText1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/stream/getText2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/cluster/demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/child_process/spawn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/buffer/change.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/buffer/creat buffer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
