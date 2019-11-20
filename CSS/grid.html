@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<style>
+  .out{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: repeat(5,20%); //px，fr，% 均可
+    grid-template-columns: repeat(5,20%);
+    border: 1px solid #000c17;
+    grid-gap: 2px;  //格子间隙
+  }
+  .in{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: yellow;
+    grid-column: 3/4;
+  }
+</style>
+<body>
+<div class="out">
+  <div class="in"></div>
+</div>
+</body>
+</html>

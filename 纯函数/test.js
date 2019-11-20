@@ -14,3 +14,17 @@ add(1); // 1
 add(1)(2);  // 3
 add(1)(2)(3); // 6
 add(1)(2)(3)(4); // 10
+
+let obj={
+  a:1,
+  b:2
+}
+let n1 = {
+  a:2,
+  b:5
+};
+
+[obj,n1] = [n1,obj]
+n1.c = 6;
+console.log(n1)
+console.log(obj)
