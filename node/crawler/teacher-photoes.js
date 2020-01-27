@@ -1,5 +1,6 @@
 const http = require('http')
 const cheerio = require('cheerio')
+const download = require('download')
 const HOST = 'http://web.itheima.com/'
 
 let req = http.request(HOST + 'teacher.html', res => {
@@ -16,8 +17,12 @@ let req = http.request(HOST + 'teacher.html', res => {
     //   imgs.push(HOST + $(item).attr('src'))
     // })
 
-    let imgs = Array.prototype.map.call($('.tea_main .tea_con .li_img > img'), item => HOST + $(item).attr('src'))
+    let imgs = Array.prototype.map.call($('.tea_main .tea_con .li_img > img'), item => HOST + encodeURI($(item).attr('src')))
     console.log(imgs)
+
+    Promise.all(imgs.map(x => download(x, 'dist'))).then(() => {
+      console.log('download success!')
+    })
   })
 })
 
