@@ -1,18 +1,11 @@
 const dgram = require('dgram');
-const server = dgram.createSocket("udp4");
+// const Buffer = require('buffer');
+const message = Buffer.from('一些文字');
+const client = dgram.createSocket("udp4");
 
-server.on('error', (err) => {
-  console.log(`服务器异常\n${err.stack}`)
-  server.close()
+
+client.send(message,41234,'localhost', (err) => {
+  console.log(err)
+  client.close()
 })
 
-server.on('message', (msg, rinfo) => {
-  console.log(msg, rinfo)
-})
-
-server.on('listening', () => {
-  const address = server.address();
-  console.log(address)
-})
-
-server.bind(41234)
